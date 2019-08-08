@@ -59,6 +59,11 @@ public class IndexController {
         return "hello";   //测试hello
     }
 
+    @RequestMapping("/git")
+    public String git() {
+        return "测试git分支";   //测试git分支
+    }
+
     @RequestMapping("/showDownloadFile")
     public String showDownloadFile() {
         return "downloadFile";   //图片下载
